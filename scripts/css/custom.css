@@ -1,6 +1,14 @@
-user-pic {
-    padding: 10px;
-    padding-left: 0;
+span.user-pic {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAADUUlEQVRoQ+2ZjZFMURCFz0ZgRbA2AkSACJABESACRIAIEAEisCJgI0AEiID61D1Vb3d27k/fnp21pqumdrbmvX59uk//3benSyJ7lwSHdkA6InlD0nVJ18pnX9KX8vkk6WeHju5LNhGRR5IeSALIOgHEE0lvui1tXJgJBI9/XAD4Lul98TyRQAB3W9Kt8j9A3ko6mgWUBQQQnwuFjiU9bhjH7y8WxgP44QzdsoC8lASlAIHHe/hP7nAt914pwO9EI5MBBIO+FgMOJX0bNIb7oR5gABKiWQYQ0wSuk+QReSbpqaQPku5FFGQAgd93C8ejVYgiQI5ByavbAgIVqEJhWhTDf5e/IeeGbjrlMTyJR/95II7IzZK0EWZwz9YjkkEt+tAPSb8k8X1YMqjlZL9fOvmwEaWfMBUwg9FbhiUDiEvnc0l8j4h1vCpTwbCODCB4cMqbpQlS+cJRzQBCE3w90QOcH0Rhq0BcfhnLmZsiciE6u8tmZM4y6Gl6ZlDL5TdMizKjQc/wvJYBxDnCBEvVGZ23uJ+BkSmYnWT0/r9RzQCCHkcFMHT4ETE1wz0kEwi6mFzZKUac46mXtZiIhGXkoa2HRMb5jF0mlVooc65As96Vlc2SSMwUinQgNDbWXOhFP6Gv1IQqBXj2/NrRUYsJ6UBQyJr6rjy5RVsn+ez4vxEgKO3dK3qv20pEdkC63F65qMXjUf3LHOE0ZN1B3XLivXA5AggqkVdVKhjVi47ts192DioU/cMNELCU39DBnD2dEREmV2Ylr6gcsmEkrxRqQtlFfN3UgXYUCF7nUA7PugdwcEAEvO4SIT5+T4LRGE90mAL4IN5FDJrf0cMk3C2jQADAYTUATCEDwKOj5742lAjSHNFLQ0WgHICYqJuH4iNAAID3DADv8qDQ2F1xtQGZcoDguQBaKz1AMJxu7RwgeVE8lZwdnOF5PMcvhXgeReHM6LSALN9CQSG8ZW532JJyCXlG1KHc2n2nBcQvcNgX8FA0B2YRkUNE5KBQjFw6ITUgyxc4swfUs0C43wcUfF856KgBcTTCL18yrD+lw8vbyolkDYj38PCBwAaAeHlb2e9rQDxmb8CeFJUnbP8vgKS47byUtMrvedkx/ZwdkGkXJiv4AyvWtTOWdknIAAAAAElFTkSuQmCC);
+}
+span.user-pic-profile-prompt {
+    width: 47px;
+    height: 47px;
+    float: left;
+    overflow: hidden;
+    border-radius: 24px;
+    background-color: #d3d3d3;
+    background-size: 46px 46px;
 }
 p.dropdown-profile-header {
     padding: 0;
@@ -18,4 +26,20 @@ div.sidebar {
 
 div.sidebar-theme {
     background-color: #f5f5f5;
+}
+
+li.dropdown-menu-item {
+    text-indent: 25px;
+}
+
+dropdown-profile-pic-name {
+    text-indent: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+span.dropdown-profile-text {
+    width: auto;
+    display: inline-block;
+    text-indent: 0
 }
